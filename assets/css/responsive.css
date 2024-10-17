@@ -86,9 +86,10 @@
 	}
 
 	/* Section: Skills */
-	.section-skills .col-md-4 + .col-md-4,
+	.section-skills .col-md-2 + .col-md-2,
 	.skill + .skill {
 		margin-top: 20px;
+		
 	}
 
 	.skill h4 {
@@ -164,7 +165,8 @@
 	}
 
 	.site-logo img {
-		height: 22px;
+		height: 30px;
+		width: auto;
 	}
 
 	/* Navigation */
@@ -340,6 +342,10 @@
 	.site-section p {
 	    margin-bottom: 25px;
 	}
+	.section-skills .skill {
+        width: 50%; /* Adjust width to 50% */
+        float: left; /* Float to align side by side */
+    }
 
 	/* Section: Skills */
 	.skill h4 {
